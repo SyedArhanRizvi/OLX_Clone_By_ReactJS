@@ -18,9 +18,10 @@ function Navbar() {
         <div>
             <div className="search"><input type="text" placeholder='Find Cars, Mobile Phones, Laptops and more...'/></div>
             <div className="bg">
-            <div className="voice"><FaMicrophoneAlt className='i1'/></div>
+            {/* <div className="voice"><FaMicrophoneAlt className='i1'/></div> */}
             <div className="glass"><FaSearchengin className='i2'/></div></div>
         </div>
+        <div className="voice"><FaMicrophoneAlt className='i1'/></div>
         <div>
             <div className="lang"><select name="theme" id="">
                 <option value="dark">English</option>

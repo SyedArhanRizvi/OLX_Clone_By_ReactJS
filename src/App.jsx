@@ -15,15 +15,24 @@ function App() {
   //     console.log(prod);
   //   })
   // }, [])
+  const [addvertis, setAddvertis] = useState(true);
+  const removeAdd = ()=>{
+    setAddvertis(false);
+  }
 
   return (
     <>
       <section>
         <Navbar></Navbar>
         <Navbar2></Navbar2>
-        <Addvetisement></Addvetisement>
+        {addvertis && <Addvetisement onclick={removeAdd}></Addvetisement>}
+        
       </section>
       <section className="s2">
+         <div className="heading3">
+            <h1 >More on Sut</h1 >
+            <h1 className="hh">See More</h1 >
+          </div>
         <div className="main1">
           <Card1
             img={

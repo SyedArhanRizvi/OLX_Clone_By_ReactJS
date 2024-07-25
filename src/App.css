@@ -14,8 +14,22 @@ section{
     width: 100vw;
     overflow-x: hidden;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     /* background: red; */
+}
+.s2 .heading3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-bottom: 10px;
+}
+.s2 .heading3 .hh{
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: rgb(58, 58, 58);
 }
 .s2 .main1{
     width: 82%;

@@ -1,14 +1,14 @@
 import React from 'react'
 import { RxCross2 } from "react-icons/rx";
 import '../components/Addvetisement.css'
-function Addvetisement() {
+function Addvetisement({onclick}) {
   return (
     <div className='addTi'>
       <p>Advertisement</p>
       <div className="addBody">
         <div className="title">
             <h3>Sponsored Content</h3>
-            <h3>Adds by Panjetani Buildwells <RxCross2 className='cut'/></h3>
+            <h3>Adds by Panjetani Buildwells <RxCross2 onClick={onclick} className='cut'/></h3>
         </div> <hr />
         <div className="cards">
             <div className="c1">
